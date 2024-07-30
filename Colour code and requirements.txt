@@ -1,0 +1,45 @@
+=============================COLOR CODE REQUIREMENTS==================================
+
+1 Page
+
+Circle Button  #A57FB2
+Entire Page    #D1B0CE
+
+
+2 Page
+
+Background   #ffffff
+Left upper grid     #AE9BB0
+Lower rectangle     #725175
+
+Right Upper emotions
+
+1 #898383
+2 #635E5E
+3 #C6B8B8
+4 #E8ADAD
+5 #907676
+
+Right lower Main display container       #EFDADA
+
+
+============================ CONTENT REQUIREMENTS ==========================================
+
+Anger
+
+
+
+
+Fear
+
+
+Sadness
+
+
+Happiness
+
+
+Motivation
+
+
+

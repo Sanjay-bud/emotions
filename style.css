@@ -1,0 +1,257 @@
+:root{
+    --primary-color:#D1B0CE;
+    --init-button:#A57FB2;
+    --light-color:#eeeeee;
+    --dark-color:#202020;
+
+
+
+    --card-border-radius:15px;
+    --button-border-radius:1rem;
+}
+
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+body{
+    font-family: "Acme", sans-serif;
+    background: var(--primary-color);
+}
+
+/* ==============Front Page============== */
+
+.button-init{
+    height: 7rem;
+    width: 7rem;
+    background: var(--init-button);
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    margin: 3rem;;
+    box-shadow: 0 0 1rem rgba(195,120,174,60%);
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.words_press{
+    position: relative;
+    font-size: 1.2rem;
+    color: #635E5E;;
+}
+
+.button-init:hover{
+    transform: scale(1.1);
+    .words_press{
+        color: wheat;
+    }
+}
+
+/* .front-panel{
+    display: none;
+} */
+
+/* ==================Main Page================ */
+
+.main-panel{
+    margin: 0 4rem;
+    display: none;
+    grid-template-columns:30% auto;
+}
+
+#left-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:50rem;
+}
+
+.top-card{
+    height: 26rem;
+    width: 17.1rem; 
+    border-radius: 0 0 15px 15px;
+    background: #AE9BB0;
+    transition:.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in;
+}
+
+
+.top-card img:hover{
+    height: 25.3rem;
+    width: 14rem;
+}
+
+.bottom-card{
+    width: 17.1rem;
+    height: 17.1rem;
+    border-radius: var(--card-border-radius);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#725175;
+    font-size: 2rem;
+    color: wheat;
+}
+
+/* Right panel */
+
+#right-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-cont-emotions{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-right: 21%;
+    margin-top: 7%;
+}
+
+#Anger{
+    background: #898383;
+    color:var(--light-color);
+}
+#Fear{
+    background: #635E5E;
+    color: var(--light-color);
+}
+#Sadness{
+    background: #C6B8B8;
+    color: var(--dark-color);
+}
+#Happy{
+    background: #E8ADAD;
+    color: var(--dark-color);
+}
+#Motivation{
+    background: #907676;
+    color: var(--light-color);
+}
+
+.button-emotion-common{
+    height: 3.8rem;
+    width: 8.25rem;
+    border-radius: var(--button-border-radius);
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(195,120,174,60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+}
+
+.button-emotion-common:hover{
+    opacity: 0.8;
+    border: 3px solid rgb(148, 97, 75);
+    font-size: 1.7rem;
+}
+
+.bottom-output-cont{
+    height: 36.6rem;
+    width: 54.6rem;
+    background: #EFDADA;
+    border-radius: var(--card-border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-output-cont .img_cont .img-main-cont{
+    height: 30rem;
+    width: auto;
+    border-radius: var(--card-border-radius);
+    transition: .3s ease;
+    cursor: pointer;
+    /* position:relative; */
+}
+
+
+/* Sad button */
+
+.bottom-output-cont .vid_cont{
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+}
+
+.bottom-output-cont .vid_cont .video-play{
+    height: 480px;
+    width: 640px;
+}
+
+
+.text_cont{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text_cont h3{
+    text-align:center ;
+    font-size: 2.4rem;
+    color:#691485;
+    margin: 1rem;
+}
+
+.text_cont h1{
+    text-align:center ;
+    font-size: 4.4rem;
+    margin-bottom: 1rem;
+    color:#907676;
+}
+
+
+.text_cont >div{
+    width: 1rem;
+    height: 1rem;
+}
+
+.img_cont img{
+    height: 30rem;
+    width: auto;
+    border-radius: var(--card-border-radius);
+}
+
+
+.hap_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hap_cont .img-main-con{
+    height: 28rem;
+    width: auto;
+    border-radius: var(--card-border-radius);
+    transition: .3s ease;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.hap_cont h3{
+    color: #691485;
+    font-size: 2rem;
+    text-align: center;
+}
