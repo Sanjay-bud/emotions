@@ -220,13 +220,6 @@ sad=[
     "videos/Sad_vid/8.mp4",
     "videos/Sad_vid/9.mp4",
     "videos/Sad_vid/10.mp4",
-    "videos/Sad_vid/11.mp4",
-    "videos/Sad_vid/12.mp4",
-    "videos/Sad_vid/13.mp4",
-    "videos/Sad_vid/14.mp4",
-    "videos/Sad_vid/15.mp4",
-    "videos/Sad_vid/16.mp4",
-    "videos/Sad_vid/17.mp4"
 ]
 
 anger=[
